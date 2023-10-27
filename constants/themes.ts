@@ -24,3 +24,6 @@ const font = {
     bold: "RobotoBold",
 }
 
+
+export { color, textColor, font };
+
