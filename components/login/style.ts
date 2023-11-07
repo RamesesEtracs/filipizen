@@ -35,12 +35,11 @@ const styles = StyleSheet.create({
         marginBottom: 50,
     },
     forgotmpin: {
-        marginTop: 50,
+        marginTop: 30,
         color: '#3D3D3D',
         fontWeight: '400',
     },
     account: {
-        marginTop: 5,
         color: '#3D3D3D',
         flexDirection: 'row',
         gap: 5,      
