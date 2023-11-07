@@ -1,27 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-
-
+import CreateAccount from '../components/introduction/welcome_1/create-account/CreateAccount';
 
 const Home = () => {
   return (
-    <SafeAreaView>
-      <View style={styles.container}>
-        <Text>This is our Home asdasdasdasdasdasdasdasdas</Text>
-        <StatusBar style="auto" />
-    </View>
-    </SafeAreaView>
+    <CreateAccount />
     
   );
 }
 
 export default Home;
-
-
-const styles = StyleSheet.create({
-  container: {
-    
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-});
